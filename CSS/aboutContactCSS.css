@@ -82,3 +82,11 @@ label{
 	background-color: beige;
 	box-shadow: 5px 5px 3px #6e6449;
 }
+
+@media(min-width: 1440px){
+	.teammemberscontainer{
+		width: 80%;
+		margin-left: 10%;
+	}
+
+}
