@@ -3,13 +3,14 @@
 
     <head>
         <meta charset="UTF-8">
-        <title> HOME </title>
-
+        <title> GALLERY </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/mystyle.css">
+        <link rel="stylesheet" href="../CSS/bildegalleri.css">
     </head>
 
     <body>
         <header> Qara</header>
-        <div class="top">
+        <div class="top" style="background:none;">
             <div class="nav">
                 <a href="index.html">Home</a>
                 <a href="page2.html">Plot and characters</a>
@@ -18,15 +19,98 @@
                 <a href="aboutContact.html">About Us</a>
                 <a href="page6.html">Sources</a>
             </div>
-            <div class="bildeGalleri">
-                <img src="../Pictures/landsby1.png" alt="#">
-                <img src="../Pictures/word-search.png" alt="#">
-                <img src="../Pictures/jente1.png" alt="#">
-                <img src="../Pictures/gutt1.png" alt="#">
-                <img src="../Pictures/MobilFindOpWord.PNG" alt="#">
-                <img src="../Pictures/MemoryGame.PNG" alt="#">
-                <img src="../Pictures/MobilBaker.PNG" alt="#">
+            <div class="bildegalleri">
+                <div class="bilde aktiv">
+                    <img src="../Pictures/landsby1.png" alt="landsby" />
+                </div>
+                <div class="bilde">
+                    <img src="../Pictures/word-search.png" alt="Word search">
+                </div>
+                <div class="bilde">
+                    <img src="../Pictures/jente1.png" alt="jente">
+                </div>
+                <div class="bilde">
+                    <img src="../Pictures/gutt1.png" alt="gutt">
+                </div>
+                <div class="bilde">
+                    <img src="../Pictures/MobilFindOpWord.PNG" alt="Find Word">
+                </div>
+                <div class="bilde">
+                    <img src="../Pictures/MemoryGame.PNG" alt="Memory game">
+                </div>
+                <div class="bilde">
+                    <img src="../Pictures/MobilBaker.PNG" alt="Baker">
+                </div>
+                <button type="button" class="button left" aria-label="Previous image">
+                    &lt;
+                </button>
+                <button type="button" class="button right" aria-label="Next image">
+                    &gt;
+                </button>
+                <div class="dots">
+                    <button type="button" class="dot aktiv" aria-label="Go to image 1"></button>
+                    <button type="button" class="dot" aria-label="Go to image 2"></button>
+                    <button type="button" class="dot" aria-label="Go to image 3"></button>
+                    <button type="button" class="dot" aria-label="Go to image 4"></button>
+                    <button type="button" class="dot" aria-label="Go to image 5"></button>
+                    <button type="button" class="dot" aria-label="Go to image 6"></button>
+                    <button type="button" class="dot" aria-label="Go to image 7"></button>
+                </div>
             </div>
+            <noscript>
+                <style>
+                    .bildegalleri .bilde {
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                    }
+
+                    .bildegalleri .button,
+                    .bildegalleri .dots {
+                        display: none;
+                    }
+
+                    @keyframes img {
+                        0% {
+                            opacity: 1;
+                        }
+
+                        20% {
+                            opacity: 1;
+                        }
+
+                        25% {
+                            opacity: 0;
+                        }
+
+                        100% {
+                            opacity: 0;
+                        }
+                    }
+
+                    .bildegalleri .bilde:nth-of-type(1) {
+                        opacity: 0;
+                        animation: img 20s linear 0s infinite;
+                    }
+
+                    .bildegalleri .bilde:nth-of-type(2) {
+                        opacity: 0;
+                        animation: img 20s linear 5s infinite;
+                    }
+
+                    .bildegalleri .bilde:nth-of-type(3) {
+                        opacity: 0;
+                        animation: img 20s linear 10s infinite;
+                    }
+
+                    .bildegalleri .bilde:nth-of-type(4) {
+                        opacity: 0;
+                        animation: img 20s linear 15s infinite;
+                    }
+                </style>
+            </noscript>
+            <script src="../JS/bildegalleri.js"></script>
         </div>
     </body>
 

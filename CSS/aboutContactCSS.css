@@ -26,7 +26,7 @@ h1{
 
 .about{
 	margin-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	background-color: beige;
 	font-size: 20px;
 	text-align: center;
@@ -43,6 +43,7 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-top: 53px;
 }
 
 .teammembers{
@@ -62,15 +63,18 @@ label{
 .faqwrapper{
 	background-color: beige;
 	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+	box-shadow: 5px 0 3px beige;
+
 }
 
 .faqcontainer{
 	display: flex;
-	margin-top: 53px;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	font-size: 20px;
-
+	padding-top: 20px;
 }
 
 .faqflexbox{
@@ -81,20 +85,16 @@ label{
 	border-radius: 5px;
 	width: 600px;
 	box-shadow: 5px 5px 3px #c4b386;
-
 }
 
 .faqquestion{
 	margin-bottom: 15px;
 	font-weight: bold;
-
 }
 
 .faqanswer{
 
 }
-
-
 
 
 .contact{
@@ -106,6 +106,7 @@ label{
 .contactus{
 	text-align: center;
 	padding-bottom: 10px;
+	margin-bottom: 53px;
 }
 
 .inputboxes{
@@ -119,6 +120,7 @@ label{
 	border: none;
 	background-color: beige;
 	box-shadow: 5px 5px 3px #6e6449;
+	font-size: 20px;
 }
 
 @media(min-width: 1440px){
@@ -126,10 +128,13 @@ label{
 		width: 80%;
 		margin-left: 10%;
 	}
-
 	.faqcontainer{
 		width: 80%;
 		margin-left: 10%;
 	}
-
+}
+@media(max-width: 768px){
+	.faqflexbox{
+		width: 300px;
+	}
 }
