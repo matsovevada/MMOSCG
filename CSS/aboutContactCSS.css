@@ -65,6 +65,7 @@ label{
 	margin-top: 53px;
 	justify-content: space-around;
 	flex-wrap: wrap;
+	font-size: 20px;
 
 }
 
@@ -75,10 +76,13 @@ label{
 	border: 3px solid #6e6449;
 	border-radius: 5px;
 	width: 300px;
+	box-shadow: 5px 5px 3px #c4b386;
 
 }
 
 .faqquestion{
+	margin-bottom: 15px;
+	font-weight: bold;
 
 }
 
@@ -111,4 +115,12 @@ label{
 	border: none;
 	background-color: beige;
 	box-shadow: 5px 5px 3px #6e6449;
+}
+
+@media(min-width: 1440px){
+	.teammemberscontainer{
+		width: 80%;
+		margin-left: 10%;
+	}
+
 }
