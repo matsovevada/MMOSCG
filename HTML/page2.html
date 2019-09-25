@@ -1,56 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
     <head>
-        <meta charset="UTF-8">
-        <title> HOME </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/mystyle.css">
+        <title>Home</title>
     </head>
 
     <body>
-        <header> Qara </header>
-        <div class="top">
-            <div class="nav">
-                <a href="index.html">Home</a>
-                <a href="page2.html">Plot and characters</a>
-                <a href="LearningOutcome.html">Learning Outcome</a>
-                <a href="page4.html">Gallery</a>
-                <a href="aboutContact.html">About Us</a>
-                <a href="page6.html">Sources</a>
+        <div class="nav">
+
+            <div class="dropdown">
+                <img class="dropdown-icon" src="Pics/hamb.png" alt="">
+                <li class="dropdown-content">
+                    <ul>
+                        <a class="navigationlink" href="page1.html">Home</a>
+                    </ul>
+                    <ul>
+                        <a class="navigationlink" href="page2.html">Characters</a>
+                    </ul>
+                    <ul>
+                        <a class="navigationlink" href="page3.html">Lore</a>
+                    </ul>
+                    <ul>
+                        <a class="navigationlink" href="page4.html">Our Mission</a>
+                    </ul>
+                    <ul>
+                        <a class="navigationlink" href="page5.html">Pictures</a>
+                    </ul>
+                    <ul>
+                        <a class="navigationlink" href="page6.html">Contact Us</a>
+                    </ul>
+                </li>
             </div>
 
-            <h3> Create your own character! </h3>
-            <div class="karaktererBilder">
-                <img src="../../Pictures/jente1.png">
-                <img src="../../Pictures/gutt1.png">
+
+
+        </div>
+        <div class=boxTop>
+            <div class="logo">
+                <img src="../Pics/Asset 8.svg">
             </div>
-            <div class="karaktererTekst">
-                <p> The player can create their own character using our avatar-builder. With a wide array of options,
-                    the
+            <div class="frontView">
+                <h1>Qara</h1>
+                <form>
+                    <input type="button" value="Download" class="dlButton" onclick="window.location.href='page2.html'">
+                </form>
+            </div>
+        </div>
+        <div class=boxMain>
+            <h2>Text Text</h2>
+            <div class="block">
+                <img src="../Pics/Scen.jpg">
+            </div>
+            <div class="block2">
+                <h2>Pick your character!</h2>
+                <p>The player can create their own character using our avatar-builder. With a wide array of options, the
                     character is fully customizable. The player can choose an avatar similar to themselves - or
-                    something
-                    totally different. <br> In our world the player is free to be whomever they want!
+                    something totally different. <br> In our world the player is free to be whomever they want!
                 </p>
             </div>
-            <div class="landsbyBilde">
-                <img src="../../Pictures/landsby.png">
+            <div class="block2">
+                <img src="../Pics/gutt1.png">
+                <img src="../Pics/jente1.png">
             </div>
-            <div class="landsbyTekst">
-                <h4> Join our village </h4>
+            <div class="block3">
+                <h2>Join our village!</h2>
                 <p> The villagers of Qara are in need of help. They struggle with literacy and the player needsto help
-                    them
-                    through a wide range of challenges. Literacy is a crucial part of everyday life and its integral for
-                    personal development. The game aims to both highlight the importance of literacy and develop the
-                    skills
-                    of the player. <br> <br>
+                    them through a wide range of challenges. Literacy is a crucial part of everyday life and its
+                    integral for personal development. The game aims to both highlight the importance of literacy and
+                    develop the skills of the player. <br> <br>
                     As with most things in life, the experience is better when shared. The player will meet different
                     characters in game and is tasked with helping them with their issues. With focus on the empowerment
-                    of
-                    others the player is challenged to solve increasingly more difficult tasks using their literacy
-                    skills.
-                    Either it´s helping the baker with his recipe or the farmer harvesting crops the player is sure to
-                    be
-                    challenged in a fun way.
-                    <a href="page3.html"> Read more. </a></p>
+                    of others the player is challenged to solve increasingly more difficult tasks using their literacy
+                    skills. Either it´s helping the baker with his recipe or the farmer harvesting crops the player is
+                    sure to be challenged in a fun way.</p>
+            </div>
+            <div class="block3">
+                <img src="../Pics/landsby.png">
+            </div>
+            <div class="bottom">
+                <div class="bottomBox1">
+                    <p>Info1<br>info2<br>info3<br>ken</p>
+                </div>
+                <div class="bottomBox2">
+                    <br><br>
+                    <a href="page6.html">Privacy / Sources</a>
+                </div>
+                <div class="bottomBox3">
+                    <p>Do you have an urgent question?</p>
+                    <form>
+                        <input type="button" value="Press here!" class="qButton"
+                            onclick="window.location.href='page6.html'">
+                    </form>
+                </div>
             </div>
         </div>
     </body>
