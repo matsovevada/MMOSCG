@@ -7,11 +7,11 @@ a{
 	cursor: pointer;
 }
 /**/
-.nav{
+.dropdown{
   background: grey;
   width: 100%;
+	border-radius: 5px;
 }
-
 .dropdown-icon{
   position: relative;
   display: inline-block;
@@ -19,10 +19,12 @@ a{
 }
 .dropdown-content{
   display: none;
+	transition: 0.3s;
+	text-align: left;
   position: absolute;
   background-color: grey;
-  z-index: 1000;
-  width: 100%;
+  z-index: 2;
+  width: auto;
 }
 .navigationlink{
 		text-decoration: none;
@@ -37,6 +39,9 @@ a{
 .dropdown:hover .dropdown-content{
 	cursor: pointer;
   display: block;
+}
+.dropdown-content a:hover{
+	color:white;
 }
 /**/
 
@@ -53,8 +58,12 @@ a{
 	padding-top: 25%;
 	text-align: center;
 }
-header{
+.frontView h1{
 	font-family: Garamond;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 5%;
+	font-size: 40px;
 }
 .nav{
 	z-index: 2;
@@ -76,18 +85,20 @@ header{
 	width: 100%;
 }
 .dlButton{
-	background-color: yellow;
+	background-color:yellow ;
+	width: 25%;
+	height: auto;
 	cursor: pointer;
 	border-radius: 5px;
-	border-color: yellow;
+	border-color: #ffb347 ;
 }
 .plot{
 	position: absolute;
 	margin-top: 90%;
 	z-index: 1;
 	width: 100%;
-	background-color: black;
-	color: white;
+	background-color: orange;
+	color: black;
 }
 .block{
 	display: block;
@@ -98,32 +109,40 @@ header{
 	padding: 25%;
 }
 .bottom{
+	color: lightgray;
 	display: flex;
 	justify-content: space-between;
 	position: static;
 	width: 100%;
-	background-color: yellow;
+	background-color: gray;
 	padding-left: 2%;
 	padding-right: 2%;
 }
 .bottomBox1{
-	background-color: teal;
 	flex-basis: 25%;
+	padding: 2%;
+	font-size: 12px;
 }
 .bottomBox2{
-	background-color: teal;
 	flex-basis: 25%;
 	text-align: center;
+	padding: 2%;
+	font-size: 12px;
 }
 .bottom a{
 	text-decoration: none;
-	color: black;
+	color: lightgray;
 }
 .bottomBox3{
-	background-color: teal;
 	flex-basis: 25%;
 	text-align: right;
+	padding: 2%;
+	padding-top: 5%;
+	font-size: 12px;
 }
 .qButton{
-	background-color: purple;
+	text-align: center;
+	margin-top: 10%;
+	margin-right: 25%;
+	background-color: white;
 }
