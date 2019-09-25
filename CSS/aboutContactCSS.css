@@ -24,8 +24,49 @@ h1{
 	font-weight: lighter;
 }
 
+/**/
+.dropdown{
+	position: fixed;
+	top: 0;
+  background: #c4b386;
+  width: 10%;
+	border-radius: 5px;
+}
+.dropdown-icon{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.dropdown-content{
+  display: none;
+	transition: 0.3s;
+	text-align: left;
+  position: absolute;
+  background-color: #c4b386;
+  z-index: 2;
+  width: auto;
+}
+.navigationlink{
+	display: block;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: black;
+		font-size: 2.5vw;
+}
+.navigationlink ul{
+	background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+	cursor: pointer;
+  display: block;
+}
+.dropdown-content a:hover{
+	color:white;
+}
+/**/
+
 .about{
-	margin-top: 30px;
+	/*margin-top: 30px;*/
 	padding-bottom: 40px;
 	background-color: beige;
 	font-size: 20px;
