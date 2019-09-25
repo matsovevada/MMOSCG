@@ -1,52 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="#">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/MasterCSS.css">
         <title>About us and contact</title>
     </head>
-
     <body>
-        <! -- navigasjonsbar -->
+        <!-- navigasjonsbar -->
             <div class="nav">
-                <a href="../index/index.html">Home</a>
-                <a href="../page2/page2.html">Plot and characters</a>
-                <a href="../Learning%20outcome%20m.m/LearningOutcome.html">Learning Outcome</a>
-                <a href="../page4/page4.html">Gallery</a>
-                <a href="../aboutContact/aboutContact.html">About Us</a>
-                <a href="../page6/page6.html">Sources</a>
+                <a href="index.html">Home</a>
+                <a href="page2.html">Plot and characters</a>
+                <a href="LearningOutcome.html">Learning Outcome</a>
+                <a href="page4.html">Gallery</a>
+                <a href="aboutContact.html">About Us</a>
+                <a href="page6.html">Sources</a>
             </div>
-
         <!-- Om oss -->
         <div class="about">
-            <h1>About us</h1>
-            <p>StudApp is an app development company based in Oslo. Our main objective is to make apps that
-                are both educational and entertaining.</p>
-            <p>The StudApp-team consists of ten members: Alethia Dagestad Strande (CEO and CSS developer),
-                Peter Stjern Sund (Content project leader), Sander Tøien (content developer), Henriette Vigdal
-                (content developer), Victoria Simensen (content developer), Zakaria Karlsen Tawfiq (content developer),
-                Henrik Bernhard Stangeland (CSS project leader), Patrick Sletvold (CSS developer), Mats Ove Vada
-                (CSS developer) and Kristian Wang (CSS developer).</p>
+					<div class="aboutuscontainer">
+						<h1>About us</h1>
+	          <p>StudApp is an app development company based in Oslo. Our main objective is to make
+							apps that are both educational and entertaining.</p>
+							<br>
+	          <p>The StudApp-team consists of ten members:</p>
+					</div>
+					<div class="teammemberscontainer">
+						<p class="teammembers">Alethia Dagestad Strande <br> (CEO and CSS developer)</p>
+						<p class="teammembers">Peter Stjern Sund <br> (Content project leader)</p>
+						<p class="teammembers">Sander Tøien <br> (Content developer)</p>
+						<p class="teammembers">Henriette Vigdal <br> (Content developer)</p>
+						<p class="teammembers">Victoria Simensen <br> (Content developer)</p>
+						<p class="teammembers">Zakaria Karlsen Tawfiq <br> (Content developer)</p>
+						<p class="teammembers">Henrik Bernhard Stangeland <br> (CSS project leader)</p>
+						<p class="teammembers">Patrick Sletvold <br> (CSS developer)</p>
+						<p class="teammembers">Mats Ove Vada <br> (CSS developer)</p>
+						<p class="teammembers">Kristian Wang <br> (CSS developer)</p>
+					</div>
         </div>
-        
         <!-- Kontaktskjema -->
         <div class="contact">
             <h1>Contact us</h1>
-            <form action="" method=""> <!-- Start på skjema -->
-                <label for="name">Full Name</label>
-                <input type="text" name="name" id="name">
+            <!-- Start på skjema -->
+            <form class="contactus" action="" method="">
+                <label for="name">Full Name:</label>
+								<br>
+                <input class="inputboxes" type="text" placeholder="John Doe" name="name" id="name">
                 <br><br>
-                <label for="email">Email adress</label>
-                <input type="email" placeholder="email@email.com" name="email" id="email"> 
+                <label for="email">Email adress:</label>
+								<br>
+                <input class="inputboxes" type="email" placeholder="John@Doe.com" name="email" id="email">
                 <br><br>
-                <p>Your message:</p>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+								<label for="message">Your message:</label>
+								<br>
+                <textarea class="inputboxes" name="message" placeholder="Hi!" id="message"
+								cols="30" rows="10"></textarea>
                 <br>
-                <input type="submit">	
-            </form> <!-- Slutt på skjema -->
-        
+                <input class="submitbutton" type="submit">
+            </form>
+            <!-- Slutt på skjema -->
         </div>
-    
     </body>
 </html>
