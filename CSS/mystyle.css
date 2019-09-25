@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	cursor: pointer;
+}
+/**/
+.dropdown{
+  background: grey;
+  width: 100%;
+}
+.dropdown-icon{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: grey;
+  z-index: 1000;
+  width: 100%;
+}
+.navigationlink{
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		color: black;
+		font-size: 2.5vw;
+}
+.navigationlink ul{
+	background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+	cursor: pointer;
+  display: block;
+}
+/**/
+
+.boxTop{
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	z-index: -1;
+	min-height: 90%;
+	background-image: url("../Pics/map-3541045_960_720.jpg");
+	background-size: cover;
+}
+.frontView{
+	padding-top: 25%;
+	text-align: center;
+}
+.boxTop h1{
+	font-family: Garamond;
+}
+.nav{
+	z-index: 2;
+	position: fixed;
+	float: left;
+	width: 10%;
+	height: 10%;
+}
+.nav img{
+	width: 100%;
+}
+.logo{
+	z-index: -1;
+	float: right;
+	width: 10%;
+	height: 10%;
+}
+.logo img{
+	width: 100%;
+}
+.dlButton{
+	background-color: yellow;
+	cursor: pointer;
+	border-radius: 5px;
+	border-color: yellow;
+}
+.boxMain{
+	position: absolute;
+	margin-top: 90%;
+	z-index: 1;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+.block{
+	display: block;
+	background-color: blue;
+}
+.block img{
+	width: 50%;
+	padding: 25%;
+}
+.bottom{
+	display: flex;
+	justify-content: space-between;
+	position: static;
+	width: 100%;
+	background-color: yellow;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.bottomBox1{
+	background-color: teal;
+	flex-basis: 25%;
+}
+.bottomBox2{
+	background-color: teal;
+	flex-basis: 25%;
+	text-align: center;
+}
+.bottom a{
+	text-decoration: none;
+	color: black;
+}
+.bottomBox3{
+	background-color: teal;
+	flex-basis: 25%;
+	text-align: right;
+}
+.qButton{
+	background-color: purple;
+}
