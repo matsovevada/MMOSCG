@@ -2,22 +2,28 @@
 <html lang="en">
 
     <head>
+			<link rel= "stylesheet" type="text/css" href = "../CSS/mystyle.css">
         <meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> HOME </title>
     </head>
 
     <body>
-        <header> Qara</header>
         <div class="top">
-            <div class="nav">
+            <li class="nav">
                 <a href="index.html">Home</a>
                 <a href="page2.html">Plot and characters</a>
                 <a href="LearningOutcome.html">Learning Outcome</a>
                 <a href="page4.html">Gallery</a>
                 <a href="aboutContact.html">About Us</a>
                 <a href="page6.html">Sources</a>
-            </div>
-            <h1> Welcome to Qara </h1>
+            </li>
+						<div class="frontView">
+								<h1>Welcome to Qara</h1>
+								<form>
+										<input type="button" value="Download" class="dlButton" onclick="window.location.href='page2.html'">
+								</form>
+						</div>
         </div>
         <div class="plot">
             <p>
@@ -38,7 +44,25 @@
                 offer
                 encouragement when needed. <br> <br>
             </p>
+
+						<div class="bottom">
+								<div class="bottomBox1">
+										<p>Info1<br>info2<br>info3<br>ken</p>
+								</div>
+								<div class="bottomBox2">
+										<br><br>
+										<a href="page6.html">Privacy / Sources</a>
+								</div>
+								<div class="bottomBox3">
+										<p>Do you have an urgent question?</p>
+										<form>
+												<input type="button" value="Press here!" class="qButton"
+														onclick="window.location.href='page6.html'">
+										</form>
+								</div>
+						</div>
         </div>
+
     </body>
 
 </html>

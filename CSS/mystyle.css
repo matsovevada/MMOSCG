@@ -7,10 +7,11 @@ a{
 	cursor: pointer;
 }
 /**/
-.dropdown{
+.nav{
   background: grey;
   width: 100%;
 }
+
 .dropdown-icon{
   position: relative;
   display: inline-block;
@@ -39,20 +40,20 @@ a{
 }
 /**/
 
-.boxTop{
+.top{
 	position: fixed;
 	text-align: center;
 	width: 100%;
 	z-index: -1;
 	min-height: 90%;
-	background-image: url("../skisseHTML/Pics/map-3541045_960_720.jpg");
+	background-image: url("../Pictures/landsby.png");
 	background-size: cover;
 }
 .frontView{
 	padding-top: 25%;
 	text-align: center;
 }
-.boxTop h1{
+header{
 	font-family: Garamond;
 }
 .nav{
@@ -80,7 +81,7 @@ a{
 	border-radius: 5px;
 	border-color: yellow;
 }
-.boxMain{
+.plot{
 	position: absolute;
 	margin-top: 90%;
 	z-index: 1;

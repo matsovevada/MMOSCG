@@ -1,11 +1,13 @@
 .bildegalleri {
   width: 100%;
   position: relative;
+  height: 80vh;
 }
 .bildegalleri .bilde {
   display: none;
   opacity: 0;
   transition: 1s opacity;
+  height: 100%;
 }
 .bildegalleri .bilde.fade {
   display: block;
@@ -16,7 +18,10 @@
   opacity: 1;
 }
 .bildegalleri .bilde img {
-  width: 100%;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 .bildegalleri .button {
   position: absolute;
