@@ -80,7 +80,7 @@ a{
 	border-radius: 5px;
 	border-color: yellow;
 }
-.boxMain{
+.plot{
 	position: absolute;
 	margin-top: 90%;
 	z-index: 1;
