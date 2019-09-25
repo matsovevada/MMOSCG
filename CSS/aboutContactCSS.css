@@ -59,9 +59,13 @@ label{
 	font-size: 25px;
 }
 
+.faqwrapper{
+	background-color: beige;
+	width: 100%;
+}
+
 .faqcontainer{
 	display: flex;
-	background-color: beige;
 	margin-top: 53px;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -75,7 +79,7 @@ label{
 	margin-bottom: 7px;
 	border: 3px solid #6e6449;
 	border-radius: 5px;
-	width: 300px;
+	width: 600px;
 	box-shadow: 5px 5px 3px #c4b386;
 
 }
@@ -119,6 +123,11 @@ label{
 
 @media(min-width: 1440px){
 	.teammemberscontainer{
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.faqcontainer{
 		width: 80%;
 		margin-left: 10%;
 	}
