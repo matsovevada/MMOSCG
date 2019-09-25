@@ -104,6 +104,7 @@ label{
 .contactus{
 	text-align: center;
 	padding-bottom: 10px;
+	margin-bottom: 53px;
 }
 
 .inputboxes{
@@ -117,6 +118,7 @@ label{
 	border: none;
 	background-color: beige;
 	box-shadow: 5px 5px 3px #6e6449;
+	font-size: 20px;
 }
 
 @media(min-width: 1440px){
