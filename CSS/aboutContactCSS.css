@@ -26,7 +26,7 @@ h1{
 
 .about{
 	margin-top: 30px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	background-color: beige;
 	font-size: 20px;
 	text-align: center;
@@ -43,6 +43,7 @@ h1{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-top: 53px;
 }
 
 .teammembers{
@@ -64,11 +65,12 @@ label{
 	width: 100%;
 	text-align: center;
 	padding-bottom: 20px;
+	box-shadow: 5px 0 3px beige;
+
 }
 
 .faqcontainer{
 	display: flex;
-	margin-top: 53px;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	font-size: 20px;
@@ -104,6 +106,7 @@ label{
 .contactus{
 	text-align: center;
 	padding-bottom: 10px;
+	margin-bottom: 53px;
 }
 
 .inputboxes{
@@ -117,6 +120,7 @@ label{
 	border: none;
 	background-color: beige;
 	box-shadow: 5px 5px 3px #6e6449;
+	font-size: 20px;
 }
 
 @media(min-width: 1440px){
