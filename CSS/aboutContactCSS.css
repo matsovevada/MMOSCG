@@ -62,6 +62,8 @@ label{
 .faqwrapper{
 	background-color: beige;
 	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
 }
 
 .faqcontainer{
@@ -70,7 +72,7 @@ label{
 	justify-content: space-around;
 	flex-wrap: wrap;
 	font-size: 20px;
-
+	padding-top: 20px;
 }
 
 .faqflexbox{
@@ -81,20 +83,16 @@ label{
 	border-radius: 5px;
 	width: 600px;
 	box-shadow: 5px 5px 3px #c4b386;
-
 }
 
 .faqquestion{
 	margin-bottom: 15px;
 	font-weight: bold;
-
 }
 
 .faqanswer{
 
 }
-
-
 
 
 .contact{
@@ -126,10 +124,13 @@ label{
 		width: 80%;
 		margin-left: 10%;
 	}
-
 	.faqcontainer{
 		width: 80%;
 		margin-left: 10%;
 	}
-
+}
+@media(max-width: 768px){
+	.faqflexbox{
+		width: 300px;
+	}
 }
