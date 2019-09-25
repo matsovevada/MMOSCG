@@ -8,20 +8,21 @@
   opacity: 0;
   transition: 1s opacity;
   height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .bildegalleri .bilde.fade {
-  display: block;
+  display: flex;
   opacity: 0;
 }
 .bildegalleri .bilde.aktiv {
-  display: block;
+  display: flex;
   opacity: 1;
 }
 .bildegalleri .bilde img {
   display: block;
   max-width: 100%;
-  height: 100%;
-  margin: 0 auto;
+  max-height: 100%;
 }
 .bildegalleri .button {
   position: absolute;
