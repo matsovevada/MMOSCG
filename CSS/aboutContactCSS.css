@@ -45,6 +45,8 @@ h1{
 .dropdown-content{
   display: none;
 	position: absolute;
+	top: 0px;
+	left: 101%;
 	z-index: 2;
 	text-align: left;
   background-color: #c4b386;
@@ -187,7 +189,7 @@ label{
 	}
 
 	.navigationlink{
-		font-size: 30px;
+		font-size: 28px;
 	}
 
 
