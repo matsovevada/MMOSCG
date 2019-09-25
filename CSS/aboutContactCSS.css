@@ -59,6 +59,36 @@ label{
 	font-size: 25px;
 }
 
+.faqcontainer{
+	display: flex;
+	background-color: beige;
+	margin-top: 53px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+.faqflexbox{
+	background-color: #c4b386;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	border: 3px solid #6e6449;
+	border-radius: 5px;
+	width: 300px;
+
+}
+
+.faqquestion{
+
+}
+
+.faqanswer{
+
+}
+
+
+
+
 .contact{
 	background-color: #c4b386;
 	margin-top: 53px;
