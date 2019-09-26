@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    
+
 }
 
 .header{
@@ -39,6 +39,7 @@
 .dropdown-content{
     display: none;
     position: absolute;
+		top: 0;
     left: 101%;
     z-index: 4;
     text-align: left;
@@ -81,11 +82,11 @@
 
 .paragraph{
     width: border-box;
-    
+
 }
 
 .paragraph2{
-    
+
 }
 
 .bakerPic{

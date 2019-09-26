@@ -47,7 +47,7 @@ h1{
 	position: absolute;
 	top: 0px;
 	left: 101%;
-	z-index: 2;
+	z-index: 4;
 	text-align: left;
   background-color: #c4b386;
   width: auto;
