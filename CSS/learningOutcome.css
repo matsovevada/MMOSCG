@@ -4,4 +4,84 @@ body{
     background-color: aliceblue;
 }
 
+.dropdown{
+    position: fixed;
+    z-index: 3;
+    top: 3px;
+    left: 3px;
+    background: #c4b386;
+    width: 10%;
+    min-width: 60px;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 10px 1px #6e6449;
+}
 
+.dropdown-icon {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 60px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    left: 101%;
+    z-index: 2;
+    text-align: left;
+    background-color: #c4b386;
+    width: auto;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 10px 1px #6e6449;
+}
+.navigationlink{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 3px 0 3px;
+    color: black;
+    font-size: 2.25vw;
+}
+.navigationlink ul{
+    background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+    cursor: pointer;
+    display: block;
+}
+.dropdown-content a:hover {
+    color: white;
+}
+
+.flexparent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.flexparent img{
+    height: 50%;
+    width: auto;
+}
+
+.paragraph{
+    
+}
+
+.paragraph2{
+    
+}
+
+.bakerPic{
+    width: 30%;
+}
+
+.wordSearchPic{
+    width:30%
+}
+
+.matchPic{
+    width: 30%;
+}
