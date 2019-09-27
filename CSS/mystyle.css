@@ -6,7 +6,9 @@
 a{
 	cursor: pointer;
 }
-/**/
+
+/*	NAVIGATION
+----------------------------------*/
 .nav{
 	z-index: 2;
 	position: fixed;
@@ -14,6 +16,10 @@ a{
 	width: 10%;
 	height: 10%;
 	background-color: white;
+}
+.nav img{
+	width: 100%;
+	padding: 10%;
 }
 .dropdown{
   width: 100%;
@@ -53,8 +59,21 @@ a{
 .dropdown-content a:hover{
 	color:white;
 }
-/**/
 
+/*	LOGO/NAVIGATION(?)
+----------------------------------*/
+.logo{
+	z-index: -1;
+	float: right;
+	width: 10%;
+	height: 10%;
+}
+.logo img{
+	width: 100%;
+}
+
+/*	HOME
+----------------------------------*/
 .top{
 	font-family: sans-serif;
 	font-weight: lighter;
@@ -86,20 +105,6 @@ a{
 	border-radius: 5px;
 	border-color: #ffb347 ;
 }
-
-.nav img{
-	width: 100%;
-	padding: 10%;
-}
-.logo{
-	z-index: -1;
-	float: right;
-	width: 10%;
-	height: 10%;
-}
-.logo img{
-	width: 100%;
-}
 .content1{
 	font-family: sans-serif;
 	font-weight: lighter;
@@ -118,6 +123,9 @@ a{
 	width: 50%;
 	padding: 25%;
 }
+
+/*	CHARACTERS
+----------------------------------*/
 .content2{
 	font-family: sans-serif;
 	font-weight: lighter;
@@ -140,6 +148,9 @@ a{
 .flexparent{
 	/*	SOMEBODY PLEASE */
 }
+
+/*	BOTTOM
+----------------------------------*/
 .bottom{
 	border-top: solid white 2px;
 	padding-top: 2px;
