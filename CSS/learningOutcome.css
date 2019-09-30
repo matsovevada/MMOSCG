@@ -1,15 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
 }
 
 .main {
     width: 100%;
-
 }
 
-.header{
+.header {
     text-align: center;
     font-size: 40px;
     margin: 3% 0 5% 0;
@@ -75,7 +73,7 @@
     width: 100%;
 }
 
-.flexparent{
+.flexparent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -84,32 +82,32 @@
     height: 50%;
 }
 
-.flexparent img{
+.flexparent img {
     height: 60%;
     width: auto;
 }
 
-.paragraph{
+.paragraph {
     margin: 3% 10% 0 10%;
     text-align: center;
 }
 
-.paragraph2{
+.paragraph2 {
     margin: 0 10% 3% 10%;
     text-align: center;
 }
 
-.bakerPic{
+.bakerPic {
     width: 290px;
     order: 1;
 }
 
-.wordSearchPic{
-    width:290px;
+.wordSearchPic {
+    width: 290px;
     order: 2;
 }
 
-.matchPic{
+.matchPic {
     width: 290px;
     order: 3;
 }
@@ -163,11 +161,9 @@
 h2 {
     text-align: center;
 }
-.bottomParagraph{
+.bottomParagraph {
     margin: 0 10% 3% 10%;
     text-align: center;
 }
-.bottomParagraph p{
-    
+.bottomParagraph p {
 }
-
