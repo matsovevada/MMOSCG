@@ -40,14 +40,15 @@ a{
   position: absolute;
   z-index: 2;
   width: auto;
-	background-color: white;
+    background-color: white;
 }
 .navigationlink{
 		text-decoration: none;
 		text-align: center;
 		text-transform: uppercase;
 		color: black;
-		font-size: 2.5vw;
+        font-size: 2.5vw;
+        font-weight: normal;
 }
 .navigationlink ul{
 }
