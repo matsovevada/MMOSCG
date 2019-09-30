@@ -332,3 +332,44 @@ textarea {
     text-align: center;
     background-color: white;
 }
+
+/*	LEARNING OUTCOME	*/
+
+.flexparent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    height: 50%;
+}
+
+.flexparent img{
+    height: 60%;
+    width: auto;
+}
+
+.paragraph{
+    margin: 3% 10% 0 10%;
+    text-align: center;
+}
+
+.paragraph2{
+    margin: 0 10% 3% 10%;
+    text-align: center;
+}
+
+.bakerPic{
+    width: 290px;
+    order: 1;
+}
+
+.wordSearchPic{
+    width:290px;
+    order: 2;
+}
+
+.matchPic{
+    width: 290px;
+    order: 3;
+}
