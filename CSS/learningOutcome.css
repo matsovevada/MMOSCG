@@ -82,12 +82,12 @@
 }
 
 .paragraph{
-    width: border-box;
+    margin: 3% 0 0 0;
 
 }
 
 .paragraph2{
-
+    width: 60%;
 }
 
 .bakerPic{
