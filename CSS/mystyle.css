@@ -49,8 +49,6 @@ a {
     font-size: 2.5vw;
     font-weight: normal;
 }
-.navigationlink ul {
-}
 .dropdown:hover .dropdown-content {
     cursor: pointer;
     display: block;
@@ -175,9 +173,6 @@ h2 {
 .blockImages2 img {
     width: 100%;
 }
-.flexparent {
-    /*	SOMEBODY PLEASE */
-}
 
 /*	LEARNING OUTCOME
 ----------------------------------*/
@@ -246,8 +241,6 @@ h2 {
 .faqquestion {
     margin-bottom: 15px;
     font-weight: bold;
-}
-.faqanswer {
 }
 .contact {
     background-color: #e1d1e8;

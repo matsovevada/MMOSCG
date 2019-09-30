@@ -56,15 +56,13 @@
     font-size: 2.5vw;
     font-weight: normal;
 }
-.navigationlink ul {
-}
 .dropdown:hover .dropdown-content {
     cursor: pointer;
     display: block;
     transition: 0.3s;
 }
 .dropdown-content a:hover {
-    color: white;
+    color: gray;
 }
 
 .logo {
