@@ -18,54 +18,68 @@
     width: 50%;
 }
 
-.dropdown{
+.nav {
+    z-index: 2;
     position: fixed;
-    z-index: 3;
-    top: 3px;
-    left: 3px;
-    background: #c4b386;
+    float: left;
     width: 10%;
-    min-width: 60px;
-    border-radius: 0 0 0 0;
-    box-shadow: 0 0 10px 1px #6e6449;
+    height: 10%;
+    background-color: white;
 }
-
+.nav img {
+    width: 100%;
+    padding: 10%;
+}
+.dropdown {
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+}
 .dropdown-icon {
     position: relative;
     display: inline-block;
     width: 100%;
-    min-width: 60px;
 }
-
-.dropdown-content{
+.dropdown-content {
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    padding-left: 4px;
     display: none;
-    position: absolute;
-		top: 0;
-    left: 101%;
-    z-index: 4;
     text-align: left;
-    background-color: #c4b386;
+    position: absolute;
+    z-index: 2;
     width: auto;
-    border-radius: 0 0 0 0;
-    box-shadow: 0 0 10px 1px #6e6449;
+    background-color: white;
 }
-.navigationlink{
-    display: block;
+.navigationlink {
     text-decoration: none;
+    text-align: center;
     text-transform: uppercase;
-    padding: 0 3px 0 3px;
     color: black;
-    font-size: 2.25vw;
+    font-size: 2.5vw;
+    font-weight: normal;
 }
-.navigationlink ul{
-    background-color: grey;
+.navigationlink ul {
 }
-.dropdown:hover .dropdown-content{
+.dropdown:hover .dropdown-content {
     cursor: pointer;
     display: block;
+    transition: 0.3s;
 }
 .dropdown-content a:hover {
     color: white;
+}
+
+/*	LOGO/NAVIGATION(?)
+----------------------------------*/
+.logo {
+    z-index: -1;
+    float: right;
+    width: 10%;
+    height: 10%;
+}
+.logo img {
+    width: 100%;
 }
 
 .flexparent{
@@ -83,63 +97,78 @@
 
 .paragraph{
     margin: 3% 0 0 0;
-
+    width: 80%;
+    text-align: center;
 }
 
 .paragraph2{
-    width: 60%;
+    width:80%;
+    text-align: center;
 }
 
 .bakerPic{
-    width: 30%;
+    width: 350px;
     order: 1;
 }
 
 .wordSearchPic{
-    width:30%;
+    width:350px;
     order: 2;
 }
 
 .matchPic{
-    width: 30%;
+    width: 350px;
     order: 3;
 }
 
-.bottom{
-    color: lightgray;
+.bottom {
+    border-top: solid white 2px;
+    padding-top: 2px;
+    color: gray;
     display: flex;
     justify-content: space-between;
     position: static;
     width: 100%;
-    background-color: gray;
-    padding-left: 2%;
-    padding-right: 2%;
-    order: 4;
+    background-color: #faf1fe;
 }
-.bottomBox1{
-    flex-basis: 25%;
-    padding: 2%;
+.bottomBox1 {
+    flex-basis: 30%;
     font-size: 12px;
 }
-.bottomBox2{
-    flex-basis: 25%;
+.bottomBox2 {
+    flex-basis: 30%;
     text-align: center;
-    padding: 2%;
     font-size: 12px;
 }
-.bottom a{
+.bottom a {
     text-decoration: none;
-    color: lightgray;
+    color: inherit;
+    order: 6;
 }
-.bottomBox3{
-    flex-basis: 25%;
+.bottomBox3 {
+    flex-basis: 30%;
     text-align: right;
-    padding: 5% 2% 2% 2%;
     font-size: 12px;
 }
-.qButton{
+.qButton {
     text-align: center;
-    margin-top: 10%;
-    margin-right: 25%;
     background-color: white;
 }
+.content2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    position: absolute;
+    padding-left: 0;
+    padding-right: 10%;
+    padding-top: 2%;
+    z-index: 1;
+    width: 100%;
+    background-color: #faf1fe;
+    color: black;
+}
+.content2 h1,
+h2 {
+    text-align: center;
+}
+
