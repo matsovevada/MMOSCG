@@ -57,7 +57,7 @@ a{
 	transition: 0.3s;
 }
 .dropdown-content a:hover{
-	color:white;
+	color:grey;
 }
 
 /*	LOGO/NAVIGATION(?)
