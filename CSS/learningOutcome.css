@@ -15,7 +15,6 @@
     margin: 3% 0 5% 0;
     padding: 0;
     z-index: -1;
-    width: 50%;
 }
 
 .nav {
@@ -70,8 +69,6 @@
     color: white;
 }
 
-/*	LOGO/NAVIGATION(?)
-----------------------------------*/
 .logo {
     z-index: -1;
     float: right;
@@ -96,28 +93,27 @@
 }
 
 .paragraph{
-    margin: 3% 0 0 0;
-    width: 80%;
+    margin: 3% 10% 0 10%;
     text-align: center;
 }
 
 .paragraph2{
-    width:80%;
+    margin: 0 10% 0 10%;
     text-align: center;
 }
 
 .bakerPic{
-    width: 350px;
+    width: 290px;
     order: 1;
 }
 
 .wordSearchPic{
-    width:350px;
+    width:290px;
     order: 2;
 }
 
 .matchPic{
-    width: 350px;
+    width: 290px;
     order: 3;
 }
 
@@ -159,13 +155,12 @@
     font-weight: lighter;
     line-height: 1.5;
     position: absolute;
-    padding-left: 0;
-    padding-right: 10%;
-    padding-top: 2%;
+    padding: 0;
     z-index: 1;
     width: 100%;
     background-color: #faf1fe;
     color: black;
+    text-align: center;
 }
 .content2 h1,
 h2 {
