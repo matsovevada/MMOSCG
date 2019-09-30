@@ -49,7 +49,8 @@ a {
     font-size: 2.5vw;
     font-weight: normal;
 }
-.dropdown:hover .dropdown-content, .dropdown:focus .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown:focus .dropdown-content {
     cursor: pointer;
     opacity: 1;
     transition: 0.3s;
@@ -330,7 +331,7 @@ textarea {
 
 /*	LEARNING OUTCOME	*/
 
-.flexparent{
+.flexparent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -339,32 +340,32 @@ textarea {
     height: 50%;
 }
 
-.flexparent img{
+.flexparent img {
     height: 60%;
     width: auto;
 }
 
-.paragraph{
+.paragraph {
     margin: 3% 10% 0 10%;
     text-align: center;
 }
 
-.paragraph2{
+.paragraph2 {
     margin: 0 10% 3% 10%;
     text-align: center;
 }
 
-.bakerPic{
+.bakerPic {
     width: 290px;
     order: 1;
 }
 
-.wordSearchPic{
-    width:290px;
+.wordSearchPic {
+    width: 290px;
     order: 2;
 }
 
-.matchPic{
+.matchPic {
     width: 290px;
     order: 3;
 }
