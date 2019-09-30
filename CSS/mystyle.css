@@ -14,7 +14,6 @@ a {
     position: fixed;
     float: left;
     width: 10%;
-    height: 10%;
     background-color: white;
 }
 .nav img {
@@ -64,10 +63,13 @@ a {
 /*	LOGO/NAVIGATION(?)
 ----------------------------------*/
 .logo {
-    z-index: -1;
-    float: right;
-    width: 10%;
-    height: 10%;
+
+		position: fixed;
+    z-index: 2;
+    right: 0;
+		width: 20%;
+		background-color: white;
+		border-bottom-left-radius: 10px;
 }
 .logo img {
     width: 100%;
@@ -75,6 +77,10 @@ a {
 
 /*	HOME
 ----------------------------------*/
+body{
+	font-weight: lighter;
+	font-family: sans-serif;
+}
 .top {
     font-family: sans-serif;
     font-weight: lighter;
@@ -83,13 +89,9 @@ a {
     height: 90vw;
     position: fixed;
     z-index: -2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.wowImage img {
-    height: 50%;
-    transform: scale(2);
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
 }
 .frontView {
     position: fixed;
@@ -128,7 +130,13 @@ a {
 }
 .content1 img {
     width: 50%;
-    padding: 25%;
+}
+.lizzie{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 25%;
+	width: 100%;
+	border-radius: 10px;
 }
 
 /*	CHARACTERS
