@@ -143,7 +143,19 @@ a{
 	text-align: center;
 }
 .blockImages{
+	display: flex;
 	padding: 2%;
+	justify-content: space-around;
+}
+.blockImages img{
+	width: 45%;
+}
+.blockImages2{
+	display: flex;
+	justify-content: center;
+}
+.blockImages2 img{
+	width: 100%;
 }
 .flexparent{
 	/*	SOMEBODY PLEASE */
