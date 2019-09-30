@@ -82,11 +82,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: stretch;
+    align-content: space-around;
+    height: 50%;
 }
 
 .flexparent img{
-    height: 50%;
+    height: 60%;
     width: auto;
 }
 
