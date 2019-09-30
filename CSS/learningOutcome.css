@@ -14,7 +14,6 @@
     font-size: 40px;
     margin: 3% 0 5% 0;
     padding: 0;
-    z-index: -1;
 }
 
 .nav {
@@ -27,7 +26,6 @@
 }
 .nav img {
     width: 100%;
-    padding: 10%;
 }
 .dropdown {
     width: 100%;
@@ -98,7 +96,7 @@
 }
 
 .paragraph2{
-    margin: 0 10% 0 10%;
+    margin: 0 10% 3% 10%;
     text-align: center;
 }
 
@@ -165,5 +163,12 @@
 .content2 h1,
 h2 {
     text-align: center;
+}
+.bottomParagraph{
+    margin: 0 10% 3% 10%;
+    text-align: center;
+}
+.bottomParagraph p{
+    
 }
 
