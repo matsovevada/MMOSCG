@@ -97,6 +97,7 @@ body {
     position: fixed;
     width: 100%;
     padding-top: 25%;
+    padding-top: 25vh;
     text-align: center;
 }
 .frontView h1 {
@@ -104,6 +105,7 @@ body {
     font-family: Garamond;
     color: white;
     padding-bottom: 5%;
+    padding-bottom: 5vh;
     font-size: 34px;
 }
 .dlButton {
