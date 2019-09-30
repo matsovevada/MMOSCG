@@ -34,7 +34,7 @@ a {
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
     padding-left: 4px;
-    display: none;
+    opacity: 0;
     text-align: left;
     position: absolute;
     z-index: 2;
@@ -49,9 +49,9 @@ a {
     font-size: 2.5vw;
     font-weight: normal;
 }
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content, .dropdown:focus .dropdown-content {
     cursor: pointer;
-    display: block;
+    opacity: 1;
     transition: 0.3s;
 }
 .dropdown-content a:hover {
