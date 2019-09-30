@@ -2,6 +2,8 @@
   width: 100%;
   position: relative;
   height: 80vh;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 .bildegalleri .bilde {
   display: none;
@@ -55,7 +57,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 5px;
+  margin: 5px 0;
 }
 .bildegalleri .dots .dot {
   width: 10px;

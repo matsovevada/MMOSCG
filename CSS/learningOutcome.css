@@ -1,7 +1,145 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    
 }
 
+.main {
+    width: 100%;
 
+}
+
+.header{
+    text-align: center;
+    font-size: 40px;
+    margin: 3% 0 5% 0;
+    padding: 0;
+    z-index: -1;
+    width: 50%;
+}
+
+.dropdown{
+    position: fixed;
+    z-index: 3;
+    top: 3px;
+    left: 3px;
+    background: #c4b386;
+    width: 10%;
+    min-width: 60px;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 10px 1px #6e6449;
+}
+
+.dropdown-icon {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 60px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+		top: 0;
+    left: 101%;
+    z-index: 4;
+    text-align: left;
+    background-color: #c4b386;
+    width: auto;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 10px 1px #6e6449;
+}
+.navigationlink{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 3px 0 3px;
+    color: black;
+    font-size: 2.25vw;
+}
+.navigationlink ul{
+    background-color: grey;
+}
+.dropdown:hover .dropdown-content{
+    cursor: pointer;
+    display: block;
+}
+.dropdown-content a:hover {
+    color: white;
+}
+
+.flexparent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.flexparent img{
+    height: 50%;
+    width: auto;
+}
+
+.paragraph{
+    width: border-box;
+
+}
+
+.paragraph2{
+
+}
+
+.bakerPic{
+    width: 30%;
+    order: 1;
+}
+
+.wordSearchPic{
+    width:30%;
+    order: 2;
+}
+
+.matchPic{
+    width: 30%;
+    order: 3;
+}
+
+.bottom{
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: 100%;
+    background-color: gray;
+    padding-left: 2%;
+    padding-right: 2%;
+    order: 4;
+}
+.bottomBox1{
+    flex-basis: 25%;
+    padding: 2%;
+    font-size: 12px;
+}
+.bottomBox2{
+    flex-basis: 25%;
+    text-align: center;
+    padding: 2%;
+    font-size: 12px;
+}
+.bottom a{
+    text-decoration: none;
+    color: lightgray;
+}
+.bottomBox3{
+    flex-basis: 25%;
+    text-align: right;
+    padding: 5% 2% 2% 2%;
+    font-size: 12px;
+}
+.qButton{
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 25%;
+    background-color: white;
+}

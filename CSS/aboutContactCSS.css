@@ -8,67 +8,100 @@
 a{
 	text-decoration: none;
 	color: black;
-	margin-right: 15px;
 	font-size: 20px;
 }
 
 body{
-	background-color: #6e6449;
+	background-color: #white;
 }
-
-h1{
+/**/
+.nav{
+	z-index: 2;
+	position: fixed;
+	float: left;
+	width: 10%;
+	height: 10%;
+	background-color: white;
+}
+.dropdown{
+  width: 100%;
+	border-radius: 5px;
+	background-color: white;
+}
+.dropdown-icon{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.dropdown-content{
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+	padding-left: 4px;
+  display: none;
+	text-align: left;
+  position: absolute;
+  z-index: 2;
+  width: auto;
+	background-color: white;
+}
+.navigationlink{
+		text-decoration: none;
+		text-align: center;
+		text-transform: uppercase;
+		color: black;
+		font-size: 2.5vw;
+}
+.navigationlink ul{
+}
+.dropdown:hover .dropdown-content{
+	cursor: pointer;
+  display: block;
+	transition: 0.3s;
+}
+.dropdown-content a:hover{
+	color:white;
+}
+/**/
+.aboutusheader{
 	text-align: center;
 	font-size: 38px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-weight: lighter;
 }
-
 .about{
-	margin-top: 30px;
+	font-weight: lighter;
 	padding-bottom: 40px;
-	background-color: beige;
+	background-color: #FAF1FE;
 	font-size: 20px;
 	text-align: center;
-	box-shadow: 5px 0 3px beige;
+	box-shadow: 5px 0 3px #ADA1B3;
 }
-
 .aboutuscontainer{
 	width: 70%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .teammemberscontainer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin-top: 53px;
+	margin-top: 35px;
 }
-
 .teammembers{
-	background-color: #c4b386;
+	background-color: #E1D1E8;
 	margin-top: 7px;
 	margin-bottom: 7px;
-	border: 3px solid #6e6449;
-	border-radius: 5px;
 	width: 300px;
-	box-shadow: 5px 5px 3px #c4b386;
+	box-shadow: 5px 5px 3px #ADA1B3;
 }
-
-label{
-	font-size: 25px;
-}
-
 .faqwrapper{
-	background-color: beige;
+	background-color: #FAF1FE;
 	width: 100%;
 	text-align: center;
 	padding-bottom: 20px;
-	box-shadow: 5px 0 3px beige;
-
+	box-shadow: 5px 0 3px #ADA1B3;
 }
-
 .faqcontainer{
 	display: flex;
 	justify-content: space-around;
@@ -76,50 +109,43 @@ label{
 	font-size: 20px;
 	padding-top: 20px;
 }
-
 .faqflexbox{
-	background-color: #c4b386;
+	background-color: #E1D1E8;
 	margin-top: 7px;
 	margin-bottom: 7px;
-	border: 3px solid #6e6449;
-	border-radius: 5px;
 	width: 600px;
-	box-shadow: 5px 5px 3px #c4b386;
+	box-shadow: 5px 5px 3px #ADA1B3;
 }
-
 .faqquestion{
 	margin-bottom: 15px;
 	font-weight: bold;
 }
-
 .faqanswer{
 
 }
-
-
 .contact{
-	background-color: #c4b386;
+	background-color: #E1D1E8;
 	margin-top: 53px;
-	box-shadow: 5px 0 3px #c4b386;
+	box-shadow: 5px 0 3px #ADA1B3;
 }
-
 .contactus{
 	text-align: center;
 	padding-bottom: 10px;
 	margin-bottom: 53px;
 }
-
+.contactuslabel{
+	font-size: 25px;
+}
 .inputboxes{
 	width: 25%;
 	min-width: 300px;
-	border-radius: 4px;
+	padding-left: 4px;
 	margin-bottom: 5px;
 }
-
 .contactus input, textarea{
 	border: none;
-	background-color: beige;
-	box-shadow: 5px 5px 3px #6e6449;
+	background-color: #FBF2FF;
+	box-shadow: 5px 5px 3px #6ADA1B3;
 	font-size: 20px;
 }
 
@@ -136,5 +162,8 @@ label{
 @media(max-width: 768px){
 	.faqflexbox{
 		width: 300px;
+	}
+	.navigationlink{
+		font-size: 28px;
 	}
 }

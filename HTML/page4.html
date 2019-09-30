@@ -2,24 +2,44 @@
 <html lang="en">
 
     <head>
-        <meta charset="UTF-8">
-        <title> GALLERY </title>
         <link rel="stylesheet" type="text/css" href="../CSS/mystyle.css">
         <link rel="stylesheet" href="../CSS/bildegalleri.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Picture Gallery </title>
     </head>
 
     <body>
-        <header> Qara</header>
-        <div class="top" style="background:none;">
-            <div class="nav">
-                <a href="index.html">Home</a>
-                <a href="page2.html">Plot and characters</a>
-                <a href="LearningOutcome.html">Learning Outcome</a>
-                <a href="page4.html">Gallery</a>
-                <a href="aboutContact.html">About Us</a>
-                <a href="page6.html">Sources</a>
+        <div class="top">
+            <div class="logo">
+                <img src="../Pictures/Asset 8.svg" alt="#">
             </div>
-            <div class="bildegalleri">
+						<div class="nav">
+				        <div class="dropdown">
+				            <img class="dropdown-icon" src="../Pictures/hamb.png" alt="">
+				            <li class="dropdown-content">
+				                <a class="navigationlink" href="index.html">Home</a>
+				                <a class="navigationlink" href="page2.html">Characters</a>
+				                <a class="navigationlink" href="LearningOutcome.html">Learning Outcome</a>
+				                <a class="navigationlink" href="page4.html">Gallery</a>
+				                <a class="navigationlink" href="aboutContact.html">About Us</a>
+				            </li>
+				        </div>
+				    </div>
+						<!-- I don't understand what this "frontView" does :CC - Henk "-->
+            <div class="frontView">
+                <!--<h1>Picture Gallery</h1>-->
+                <a href="#pictures">
+                    <button class="dlButton"
+                        onclick="event.preventDefault();document.querySelector('#pictures').scrollIntoView({behavior: 'smooth'})">
+                        See pictures
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="content2">
+							<h1>Picture Gallery</h1>
+            <div class="bildegalleri" id="pictures">
                 <div class="bilde aktiv">
                     <img src="../Pictures/landsby1.png" alt="landsby" />
                 </div>
@@ -111,6 +131,24 @@
                 </style>
             </noscript>
             <script src="../JS/bildegalleri.js"></script>
+            <div class="bottom">
+                <div class="bottomBox1">
+                    <p>VÅRT NAVN: Navn Navn</p>
+                    <p>VÅR EMAIL: mailmail@mail.mail</p>
+                    <p>VÅRT TLF NUMMER: 12345678</p>
+                </div>
+                <div class="bottomBox2">
+                    <br><br><br><br>
+                    <a href="page6.html">Privacy / Sources</a>
+                </div>
+                <div class="bottomBox3">
+                    <p>Do you have an urgent question?</p>
+                    <form>
+                        <input type="button" value="Press here!" class="qButton"
+                            onclick="window.location.href='page6.html'">
+                    </form>
+                </div>
+            </div>
         </div>
     </body>
 
