@@ -13,12 +13,12 @@ a{
 	z-index: 2;
 	position: fixed;
 	float: left;
-	width: 10%;
-	height: 10%;
+	width: 100%;
+	height: 10px;
 	background-color: white;
 }
 .nav img{
-	width: 100%;
+	width: 10%;
 	padding: 10%;
 }
 .dropdown{
@@ -65,8 +65,7 @@ a{
 .logo{
 	z-index: -1;
 	float: right;
-	width: 10%;
-	height: 10%;
+	width: 15%;
 }
 .logo img{
 	width: 100%;
@@ -83,6 +82,9 @@ a{
 	height: 100%;
 	position: fixed;
 	z-index: -2;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 .frontView{
 	position: fixed;
