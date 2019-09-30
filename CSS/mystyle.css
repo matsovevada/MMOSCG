@@ -63,13 +63,12 @@ a {
 /*	LOGO/NAVIGATION(?)
 ----------------------------------*/
 .logo {
-
-		position: fixed;
+    position: fixed;
     z-index: 2;
     right: 0;
-		width: 20%;
-		background-color: white;
-		border-bottom-left-radius: 10px;
+    width: 20%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
 }
 .logo img {
     width: 100%;
@@ -77,9 +76,9 @@ a {
 
 /*	HOME
 ----------------------------------*/
-body{
-	font-weight: lighter;
-	font-family: sans-serif;
+body {
+    font-weight: lighter;
+    font-family: sans-serif;
 }
 .top {
     font-family: sans-serif;
@@ -89,9 +88,12 @@ body{
     height: 90vw;
     position: fixed;
     z-index: -2;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.wowImage img {
+    transform: scale(2);
 }
 .frontView {
     position: fixed;
@@ -131,49 +133,50 @@ body{
 .content1 img {
     width: 50%;
 }
-.lizzie{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 25%;
-	width: 100%;
-	border-radius: 10px;
+.lizzie {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    width: 100%;
+    border-radius: 10px;
 }
 
 /*	CHARACTERS
 ----------------------------------*/
-.content2{
-	font-family: sans-serif;
-	font-weight: lighter;
-	line-height: 1.5;
-	position: absolute;
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-top: 2%;
-	z-index: 1;
-	width: 100%;
-	background-color: #FAF1FE;
-	color: black;
+.content2 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    line-height: 1.5;
+    position: absolute;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    z-index: 1;
+    width: 100%;
+    background-color: #faf1fe;
+    color: black;
 }
-.content2 h1,h2{
-	text-align: center;
+.content2 h1,
+h2 {
+    text-align: center;
 }
-.blockImages{
-	display: flex;
-	padding: 2%;
-	justify-content: space-around;
+.blockImages {
+    display: flex;
+    padding: 2%;
+    justify-content: space-around;
 }
-.blockImages img{
-	width: 45%;
+.blockImages img {
+    width: 45%;
 }
-.blockImages2{
-	display: flex;
-	justify-content: center;
+.blockImages2 {
+    display: flex;
+    justify-content: center;
 }
-.blockImages2 img{
-	width: 100%;
+.blockImages2 img {
+    width: 100%;
 }
-.flexparent{
-	/*	SOMEBODY PLEASE */
+.flexparent {
+    /*	SOMEBODY PLEASE */
 }
 
 /*	LEARNING OUTCOME
@@ -186,94 +189,94 @@ body{
 
 /*	ABOUT US
 ----------------------------------*/
-.aboutusheader{
-	text-align: center;
-	font-size: 38px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-weight: lighter;
+.aboutusheader {
+    text-align: center;
+    font-size: 38px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
 }
-.about{
-	font-weight: lighter;
-	padding-bottom: 40px;
-	background-color: #FAF1FE;
-	font-size: 20px;
-	text-align: center;
-	box-shadow: 5px 0 3px #ADA1B3;
+.about {
+    font-weight: lighter;
+    padding-bottom: 40px;
+    background-color: #faf1fe;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 5px 0 3px #ada1b3;
 }
-.aboutuscontainer{
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
+.aboutuscontainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
-.teammemberscontainer{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-top: 35px;
+.teammemberscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 35px;
 }
-.teammembers{
-	background-color: #E1D1E8;
-	margin-top: 7px;
-	margin-bottom: 7px;
-	width: 300px;
-	box-shadow: 5px 5px 3px #ADA1B3;
+.teammembers {
+    background-color: #e1d1e8;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 300px;
+    box-shadow: 5px 5px 3px #ada1b3;
 }
-.faqwrapper{
-	background-color: #FAF1FE;
-	width: 100%;
-	text-align: center;
-	padding-bottom: 20px;
-	box-shadow: 5px 0 3px #ADA1B3;
+.faqwrapper {
+    background-color: #faf1fe;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 5px 0 3px #ada1b3;
 }
-.faqcontainer{
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	font-size: 20px;
-	padding-top: 20px;
+.faqcontainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-top: 20px;
 }
-.faqflexbox{
-	background-color: #E1D1E8;
-	margin-top: 7px;
-	margin-bottom: 7px;
-	width: 600px;
-	box-shadow: 5px 5px 3px #ADA1B3;
+.faqflexbox {
+    background-color: #e1d1e8;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 600px;
+    box-shadow: 5px 5px 3px #ada1b3;
 }
-.faqquestion{
-	margin-bottom: 15px;
-	font-weight: bold;
+.faqquestion {
+    margin-bottom: 15px;
+    font-weight: bold;
 }
-.faqanswer{
-
+.faqanswer {
 }
-.contact{
-	background-color: #E1D1E8;
-	margin-top: 53px;
-	box-shadow: 5px 0 3px #ADA1B3;
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
+.contact {
+    background-color: #e1d1e8;
+    margin-top: 53px;
+    box-shadow: 5px 0 3px #ada1b3;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-.contactus{
-	text-align: center;
-	padding-bottom: 10px;
-	margin-bottom: 53px;
+.contactus {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 53px;
 }
-.contactuslabel{
-	font-size: 25px;
+.contactuslabel {
+    font-size: 25px;
 }
-.inputboxes{
-	width: 25%;
-	min-width: 300px;
-	padding-left: 4px;
-	margin-bottom: 5px;
+.inputboxes {
+    width: 25%;
+    min-width: 300px;
+    padding-left: 4px;
+    margin-bottom: 5px;
 }
-.contactus input, textarea{
-	border: none;
-	background-color: #FBF2FF;
-	box-shadow: 5px 5px 3px #6ADA1B3;
-	font-size: 20px;
+.contactus input,
+textarea {
+    border: none;
+    background-color: #fbf2ff;
+    box-shadow: 5px 5px 3px #6ADA1B3;
+    font-size: 20px;
 }
 
 @media (min-width: 1440px) {
@@ -297,35 +300,35 @@ body{
 
 /*	BOTTOM
 ----------------------------------*/
-.bottom{
-	border-top: solid white 2px;
-	padding-top: 2px;
-	color: gray;
-	display: flex;
-	justify-content: space-between;
-	position: static;
-	width: 100%;
-	background-color: #FAF1FE;
+.bottom {
+    border-top: solid white 2px;
+    padding-top: 2px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: 100%;
+    background-color: #faf1fe;
 }
-.bottomBox1{
-	flex-basis: 30%;
-	font-size: 13px;
+.bottomBox1 {
+    flex-basis: 30%;
+    font-size: 13px;
 }
-.bottomBox2{
-	flex-basis: 30%;
-	text-align: center;
-	font-size: 13px;
+.bottomBox2 {
+    flex-basis: 30%;
+    text-align: center;
+    font-size: 13px;
 }
-.bottom a{
-	text-decoration: none;
-	color: inherit;
+.bottom a {
+    text-decoration: none;
+    color: inherit;
 }
-.bottomBox3{
-	flex-basis: 30%;
-	text-align: right;
-	font-size: 13px;
+.bottomBox3 {
+    flex-basis: 30%;
+    text-align: right;
+    font-size: 13px;
 }
-.qButton{
-	text-align: center;
-	background-color: white;
+.qButton {
+    text-align: center;
+    background-color: white;
 }
