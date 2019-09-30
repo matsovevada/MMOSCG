@@ -224,6 +224,9 @@ a{
 	background-color: #E1D1E8;
 	margin-top: 53px;
 	box-shadow: 5px 0 3px #ADA1B3;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .contactus{
 	text-align: center;
@@ -275,16 +278,16 @@ a{
 	justify-content: space-between;
 	position: static;
 	width: 100%;
-	background-color: #FAF1FE
+	background-color: #FAF1FE;
 }
 .bottomBox1{
 	flex-basis: 30%;
-	font-size: 12px;
+	font-size: 13px;
 }
 .bottomBox2{
 	flex-basis: 30%;
 	text-align: center;
-	font-size: 12px;
+	font-size: 13px;
 }
 .bottom a{
 	text-decoration: none;
@@ -293,7 +296,7 @@ a{
 .bottomBox3{
 	flex-basis: 30%;
 	text-align: right;
-	font-size: 12px;
+	font-size: 13px;
 }
 .qButton{
 	text-align: center;
