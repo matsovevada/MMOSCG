@@ -14,7 +14,7 @@ a{
 body{
 	background-color: #white;
 }
-/**/
+/*
 .nav{
 	z-index: 2;
 	position: fixed;
@@ -61,7 +61,7 @@ body{
 .dropdown-content a:hover{
 	color:white;
 }
-/**/
+*/
 .aboutusheader{
 	text-align: center;
 	font-size: 38px;

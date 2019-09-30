@@ -159,7 +159,111 @@ a{
 
 /*	ABOUT US
 ----------------------------------*/
-/*Skriv kode her*/
+.aboutusheader{
+	text-align: center;
+	font-size: 38px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-weight: lighter;
+}
+.about{
+	font-weight: lighter;
+	padding-bottom: 40px;
+	background-color: #FAF1FE;
+	font-size: 20px;
+	text-align: center;
+	box-shadow: 5px 0 3px #ADA1B3;
+}
+.aboutuscontainer{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.teammemberscontainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 35px;
+}
+.teammembers{
+	background-color: #E1D1E8;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	width: 300px;
+	box-shadow: 5px 5px 3px #ADA1B3;
+}
+.faqwrapper{
+	background-color: #FAF1FE;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 20px;
+	box-shadow: 5px 0 3px #ADA1B3;
+}
+.faqcontainer{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.faqflexbox{
+	background-color: #E1D1E8;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	width: 600px;
+	box-shadow: 5px 5px 3px #ADA1B3;
+}
+.faqquestion{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.faqanswer{
+
+}
+.contact{
+	background-color: #E1D1E8;
+	margin-top: 53px;
+	box-shadow: 5px 0 3px #ADA1B3;
+}
+.contactus{
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 53px;
+}
+.contactuslabel{
+	font-size: 25px;
+}
+.inputboxes{
+	width: 25%;
+	min-width: 300px;
+	padding-left: 4px;
+	margin-bottom: 5px;
+}
+.contactus input, textarea{
+	border: none;
+	background-color: #FBF2FF;
+	box-shadow: 5px 5px 3px #6ADA1B3;
+	font-size: 20px;
+}
+
+@media(min-width: 1440px){
+	.teammemberscontainer{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.faqcontainer{
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+@media(max-width: 768px){
+	.faqflexbox{
+		width: 300px;
+	}
+	.navigationlink{
+		font-size: 28px;
+	}
+}
 
 /*	BOTTOM
 ----------------------------------*/
