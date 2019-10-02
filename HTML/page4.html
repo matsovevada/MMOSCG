@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
-        <link rel="stylesheet" type="text/css" href="../CSS/mystyle.css">
-        <link rel="stylesheet" href="../CSS/bildegalleri.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Picture Gallery </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/mystyle.css" />
+        <link rel="stylesheet" href="../CSS/bildegalleri.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Picture Gallery</title>
     </head>
 
     <body>
         <div class="top">
             <div class="logo">
-                <img src="../Pictures/logoStudApp.png" alt="StudApp Logo">
+                <img src="../Pictures/logoStudApp.png" alt="StudApp Logo" />
             </div>
             <div class="nav">
                 <div class="dropdown">
-                    <img class="dropdown-icon" src="../Pictures/hamb.png" alt="Dropdown menu icon">
+                    <img
+                        class="dropdown-icon"
+                        src="../Pictures/hamb.png"
+                        alt="Dropdown menu icon"
+                    />
                     <div class="dropdown-content">
                         <a class="navigationlink" href="index.html">Home</a>
-                        <a class="navigationlink" href="page2.html">Characters</a>
-                        <a class="navigationlink" href="LearningOutcome.html">Learning Outcome</a>
+                        <a class="navigationlink" href="page2.html"
+                            >Characters</a
+                        >
+                        <a class="navigationlink" href="LearningOutcome.html"
+                            >Learning Outcome</a
+                        >
                         <a class="navigationlink" href="page4.html">Gallery</a>
-                        <a class="navigationlink" href="aboutContact.html">About Us</a>
+                        <a class="navigationlink" href="aboutContact.html"
+                            >About Us</a
+                        >
                     </div>
                 </div>
             </div>
@@ -30,8 +39,10 @@
             <div class="frontView">
                 <!--<h1>Picture Gallery</h1>-->
                 <a href="#pictures">
-                    <button class="dlButton"
-                        onclick="event.preventDefault();document.querySelector('#pictures').scrollIntoView({behavior: 'smooth'})">
+                    <button
+                        class="dlButton"
+                        onclick="event.preventDefault();document.querySelector('#pictures').scrollIntoView({behavior: 'smooth'})"
+                    >
                         See pictures
                     </button>
                 </a>
@@ -41,42 +52,91 @@
             <h1>Picture Gallery</h1>
             <div class="bildegalleri" id="pictures">
                 <div class="bilde aktiv">
-                    <img src="../Pictures/landsby1.png" alt="Picture of village from the game" />
+                    <img
+                        src="../Pictures/landsby1.png"
+                        alt="Picture of village from the game"
+                    />
                 </div>
                 <div class="bilde">
-                    <img src="../Pictures/word-search.png" alt="Word search game">
+                    <img
+                        src="../Pictures/word-search.png"
+                        alt="Word search game"
+                    />
                 </div>
                 <div class="bilde">
-                    <img src="../Pictures/jente1.png" alt="Picture of girl">
+                    <img src="../Pictures/jente1.png" alt="Picture of girl" />
                 </div>
                 <div class="bilde">
-                    <img src="../Pictures/gutt1.png" alt="Picture of boy">
+                    <img src="../Pictures/gutt1.png" alt="Picture of boy" />
                 </div>
                 <div class="bilde">
-                    <img src="../Pictures/MobilFindOpWord.PNG" alt="find word game">
+                    <img
+                        src="../Pictures/MobilFindOpWord.PNG"
+                        alt="find word game"
+                    />
                 </div>
                 <div class="bilde">
-                    <img src="../Pictures/MemoryGame.PNG" alt="Memory game">
+                    <img src="../Pictures/MemoryGame.PNG" alt="Memory game" />
                 </div>
                 <div class="bilde">
-                    <img src="../Pictures/MobilBaker.PNG" alt="Baker">
+                    <img src="../Pictures/MobilBaker.PNG" alt="Baker" />
                 </div>
-                <button type="button" class="button left" aria-label="Previous image">
+                <button
+                    type="button"
+                    class="button left"
+                    aria-label="Previous image"
+                >
                     &lt;
                 </button>
-                <button type="button" class="button right" aria-label="Next image">
+                <button
+                    type="button"
+                    class="button right"
+                    aria-label="Next image"
+                >
                     &gt;
                 </button>
                 <div class="dots">
-                    <button type="button" class="dot aktiv" aria-label="Go to image 1"></button>
-                    <button type="button" class="dot" aria-label="Go to image 2"></button>
-                    <button type="button" class="dot" aria-label="Go to image 3"></button>
-                    <button type="button" class="dot" aria-label="Go to image 4"></button>
-                    <button type="button" class="dot" aria-label="Go to image 5"></button>
-                    <button type="button" class="dot" aria-label="Go to image 6"></button>
-                    <button type="button" class="dot" aria-label="Go to image 7"></button>
+                    <button
+                        type="button"
+                        class="dot aktiv"
+                        aria-label="Go to image 1"
+                    ></button>
+                    <button
+                        type="button"
+                        class="dot"
+                        aria-label="Go to image 2"
+                    ></button>
+                    <button
+                        type="button"
+                        class="dot"
+                        aria-label="Go to image 3"
+                    ></button>
+                    <button
+                        type="button"
+                        class="dot"
+                        aria-label="Go to image 4"
+                    ></button>
+                    <button
+                        type="button"
+                        class="dot"
+                        aria-label="Go to image 5"
+                    ></button>
+                    <button
+                        type="button"
+                        class="dot"
+                        aria-label="Go to image 6"
+                    ></button>
+                    <button
+                        type="button"
+                        class="dot"
+                        aria-label="Go to image 7"
+                    ></button>
                 </div>
             </div>
+            <p style="margin-bottom: 10px;text-align:center;">
+                Sources for the images are available on the
+                <a href="page6.html">sources page</a>.
+            </p>
             <noscript>
                 <style>
                     .bildegalleri .bilde {
@@ -131,25 +191,28 @@
                 </style>
             </noscript>
             <script src="../JS/bildegalleri.js"></script>
-						<div class="bottom">
+            <div class="bottom">
                 <div class="bottomBox1">
                     <p>StudApp, charity dept.</p>
                     <p>E-MAIL: studapp@studapp.it</p>
                     <p>Phone: 420 6969 0</p>
                 </div>
                 <div class="bottomBox2">
-                    <br><br>
+                    <br /><br />
                     <a href="page6.html" class="sources">Sources</a>
                 </div>
                 <div class="bottomBox3">
                     <p>Do you have an urgent question?</p>
                     <form>
-                        <input type="button" value="Press here!" class="qButton"
-                            onclick="window.location.href='aboutContact.html'">
+                        <input
+                            type="button"
+                            value="Press here!"
+                            class="qButton"
+                            onclick="window.location.href='aboutContact.html'"
+                        />
                     </form>
                 </div>
             </div>
         </div>
     </body>
-
 </html>
