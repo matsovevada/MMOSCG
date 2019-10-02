@@ -319,6 +319,9 @@ textarea {
     text-decoration: none;
     color: inherit;
 }
+.bottom a:hover {
+    text-decoration: underline;
+}
 .bottomBox3 {
     flex-basis: 30%;
     text-align: right;
