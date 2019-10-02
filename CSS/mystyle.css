@@ -324,6 +324,12 @@ textarea {
     text-align: right;
     font-size: 13px;
 }
+.sources {
+    padding: 2px 5px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 .qButton {
     text-align: center;
     background-color: white;
